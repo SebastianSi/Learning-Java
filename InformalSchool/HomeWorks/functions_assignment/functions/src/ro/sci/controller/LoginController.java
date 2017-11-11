@@ -10,6 +10,5 @@ public class LoginController {
     public User handleLoginRequest(LoginRequest loginRequest) {
         User user = this.authenticationService.authenticate(loginRequest);
         return user;
-
     }
 }
